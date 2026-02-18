@@ -61,7 +61,7 @@ nombre del switch(config)# do wr
 </p>
 
 <p align="center">
- <img src="./Imagenes/A2.png" widt>
+ <img src="./Imagenes/A2.PNG" widt>
 </p>
 
 <p align="center">
