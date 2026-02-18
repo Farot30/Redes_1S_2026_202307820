@@ -146,5 +146,10 @@ nombre del switch(config)# do wr
 
 
 <p align="center">
+<<<<<<< HEAD
  <img src="ARPICMP/ICMP.PNG" widt>
+</p></p>
+=======
+ <img src="ARPICMP/ICMP.png" widt>
 </p>
+>>>>>>> 58a88b79422205a301945c33a6b2b52dba647e84
