@@ -57,94 +57,94 @@ nombre del switch(config)# do wr
 
 ## Capturas de las 10 Areas
 <p align="center">
- <img src="Imagenes/A1.png" widt>
+ <img src="Imagenes/A1.PNG" widt>
 </p>
 
 <p align="center">
- <img src="Imagenes/A2.png" widt>
+ <img src="./Imagenes/A2.PNG" widt>
 </p>
 
 <p align="center">
- <img src="Imagenes/A3.png" widt>
+ <img src="Imagenes/A3.PNG" widt>
 </p>
 
 <p align="center">
- <img src="Imagenes/A4.png" widt>
+ <img src="Imagenes/A4.PNG" widt>
 </p>
 
 <p align="center">
- <img src="Imagenes/A5.png" widt>
+ <img src="Imagenes/A5.PNG" widt>
 </p>
 
 <p align="center">
- <img src="Imagenes/A6.png" widt>
+ <img src="Imagenes/A6.PNG" widt>
 </p>
 
 <p align="center">
- <img src="Imagenes/A7.png" widt>
+ <img src="Imagenes/A7.PNG" widt>
 </p>
 
 <p align="center">
- <img src="Imagenes/A8.png" widt>
+ <img src="Imagenes/A8.PNG" widt>
 </p>
 
 <p align="center">
- <img src="Imagenes/A9.png" widt>
+ <img src="Imagenes/A9.PNG" widt>
 </p>
 
 <p align="center">
- <img src="Imagenes/A10.png" widt>
+ <img src="Imagenes/A10.PNG" widt>
 </p>
 
 ## Capturas de ping
 
 <p align="center">
- <img src="Pings/P1.png" widt>
+ <img src="Pings/P1.PNG" widt>
 </p>
 
 <p align="center">
- <img src="Pings/P2.png" widt>
+ <img src="Pings/P2.PNG" widt>
 </p>
 
 <p align="center">
- <img src="Pings/P3.png" widt>
+ <img src="Pings/P3.PNG" widt>
 </p>
 
 <p align="center">
- <img src="Pings/P4.png" widt>
+ <img src="Pings/P4.PNG" widt>
 </p>
 
 <p align="center">
- <img src="Pings/P5.png" widt>
+ <img src="Pings/P5.PNG" widt>
 </p>
 
 <p align="center">
- <img src="Pings/P6.png" widt>
+ <img src="Pings/P6.PNG" widt>
 </p>
 
 <p align="center">
- <img src="Pings/P7.png" widt>
+ <img src="Pings/P7.PNG" widt>
 </p>
 
 <p align="center">
- <img src="Pings/P8.png" widt>
+ <img src="Pings/P8.PNG" widt>
 </p>
 
 <p align="center">
- <img src="Pings/P9.png" widt>
+ <img src="Pings/P9.PNG" widt>
 </p>
 
 <p align="center">
- <img src="Pings/P10.png" widt>
+ <img src="Pings/P10.PNG" widt>
 </p>
 
 ## Capturas de paquete ARP e ICMP en modo simulación
 
 <p align="center">
- <img src="ARPICMP/ARP.png" widt>
+ <img src="ARPICMP/ARP.PNG" widt>
 </p>
 
 
 <p align="center">
- <img src="ARPICMP/ICMP.png" widt>
+ <img src="ARPICMP/ICMP.PNG" widt>
 </p>
