@@ -57,7 +57,7 @@ nombre del switch(config)# do wr
 
 ## Capturas de las 10 Areas
 <p align="center">
- <img src="Imagenes/A1.png" widt>
+ <img src="Imagenes/A1.PNG" widt>
 </p>
 
 <p align="center">
