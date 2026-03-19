@@ -470,3 +470,15 @@ SECCIÓN A
 | 6 | Transceptores SFP 1000BASE-SX (Para Fibra OM3) | Q 450 | Q 2,700 |
 | 5 | Jumpers de Fibra Óptica | Q 250 | Q 1,250 |
 | 200 | Conectores RJ45 Blindados Cat6 | Q 3 | Q 600 |
+
+
+
+### Resumen de Gastos por Categoría
+
+| Categoria | Subtotal |
+|-----------|----------|
+| Equipo de Networking | Q 15,721 |
+| Dispositivos Finales | Q 133,700 |
+| Cableado y Medios de Transmisión | Q 8,950 |
+| ----------|-------------|
+| TOTAL GENERAL DEL PROYECTO | Q 158,371 |
