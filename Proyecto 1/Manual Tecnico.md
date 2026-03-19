@@ -323,6 +323,15 @@ SECCIÓN A
  <img src="muestras/3spanning.png" widt>
 </p>
 
+<p align="center">
+ <img src="muestras/4spanning.png" widt>
+</p>
+
+
+<p align="center">
+ <img src="muestras/5spanning.png" widt>
+</p>
+
 ## Capturas de show etherchannel summary
 
 <p align="center">
@@ -330,13 +339,106 @@ SECCIÓN A
 </p>
 
 <p align="center">
+ <img src="muestras/LACP2.png" widt>
+</p>
+
+<p align="center">
+ <img src="muestras/LACP3.png" widt>
+</p>
+
+<p align="center">
+ <img src="muestras/LACP4.png" widt>
+</p>
+
+<p align="center">
+ <img src="muestras/LACP5.png" widt>
+</p>
+
+<p align="center">
+ <img src="muestras/LACP6.png" widt>
+</p>
+
+<p align="center">
  <img src="muestras/PAgP.png" widt>
 </p>
+
+<p align="center">
+ <img src="muestras/PAgP2.png" widt>
+</p>
+
 
 ## Capturas de show interface trunk
 
 <p align="center">
  <img src="muestras/TRUNK.png" widt>
+</p>
+
+<p align="center">
+ <img src="muestras/TRUNK1.png" widt>
+</p>
+
+<p align="center">
+ <img src="muestras/TRUNK2.png" widt>
+</p>
+
+<p align="center">
+ <img src="muestras/TRUNK3.png" widt>
+</p>
+
+<p align="center">
+ <img src="muestras/TRUNK4.png" widt>
+</p>
+
+<p align="center">
+ <img src="muestras/TRUNK5.png" widt>
+</p>
+
+<p align="center">
+ <img src="muestras/TRUNK6.png" widt>
+</p>
+
+<p align="center">
+ <img src="muestras/TRUNK7.png" widt>
+</p>
+
+<p align="center">
+ <img src="muestras/TRUNK8.png" widt>
+</p>
+
+<p align="center">
+ <img src="muestras/TRUNK9.png" widt>
+</p>
+
+<p align="center">
+ <img src="muestras/TRUNK10.png" widt>
+</p>
+
+<p align="center">
+ <img src="muestras/TRUNK11.png" widt>
+</p>
+
+<p align="center">
+ <img src="muestras/TRUNK12.png" widt>
+</p>
+
+<p align="center">
+ <img src="muestras/TRUNK13.png" widt>
+</p>
+
+<p align="center">
+ <img src="muestras/TRUNK14.png" widt>
+</p>
+
+<p align="center">
+ <img src="muestras/TRUNK15.png" widt>
+</p>
+
+<p align="center">
+ <img src="muestras/TRUNK16.png" widt>
+</p>
+
+<p align="center">
+ <img src="muestras/TRUNK17.png" widt>
 </p>
 
 ## Presupuesto
