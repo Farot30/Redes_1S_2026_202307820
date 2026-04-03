@@ -59,7 +59,7 @@ SECCIÓN A
 
 ## Tabla de subnetting organizada por área.
 
-| Area | VLAN | Hospitales que comparten | Máximo de Hots | Red | Máscara(Decimal) | CIDR | Gateway |
+| Area | VLAN | Hospitales que comparten | Máximo de Hots | Red | Máscara | CIDR | Gateway |
 | -----|-------|-------------------------|---------------|-----|-------------------|----|----------|
 | Quirófanos | 10 | H1, H3 | 63 | 192.168.20.0 | 255.255.255.128 | /25 | 192.168.20.1 |
 | Admin. | 30 | H1, H2, H5 | 32 | 192.168.20.128 | 255.255.255.192 | /26 | 192.168.20.129 |
@@ -67,6 +67,21 @@ SECCIÓN A
 | Emergencias | 40 | H2, H3, H4 | 25 | 192.168.20.224 | 255.255.255.224 | /27 | 192.168.20.225 |
 | Consultas | 50 | H4, H6 | 15 | 192.168.21.0 | 255.255.255.255.240 | /28 | 192.168.21.1 |
 
+---
+<br>
+<br>
+
+
+## Tabla de Vlans
+| ID VLAN | Nombre | Uso / Área |
+|---------|--------|----------------------- |
+| 10 | Quirofanos | Quirofanos |
+| 20 | UCI | UCI |
+| 30 | Administracion | Administración |
+| 40 | Emergencias | Emergencias |
+| 50 | Consultas | Consultas |
+| 99 | Nativa | Nativa |
+| 999 | Blackhle | Blackhole |
 
 ---
 <br>
@@ -240,12 +255,129 @@ SECCIÓN A
 | H1 Roosevelt | QUI_05 | LAPTOP | 192.168.20.6 |
 | H1 Roosevelt | ADMIN_01 | COMPUTADORA | 192.168.20.130 |
 | H1 Roosevelt | ADMIN_02 | COMPUTADORA | 192.168.20.131 |
-
-
-<BR>
-<BR>
-
+| H1 Roosevelt | ADMIN_03 | LAPTOP | 192.168.20.132 |
+| H1 Roosevelt | ADMIN_04 | LAPTOP | 192.168.20.133 |
+| H1 Roosevelt | ADMIN_05 | LAPTOP | 192.168.20.134 |
+| H1 Roosevelt | UCI_01 | LAPTOP | 192.168.20.194 |
+| H1 Roosevelt | UCI_02 | COMPUTADORA | 192.168.20.195 |
+| H1 Roosevelt | UCI_03 | LAPTOP | 192.168.20.196 |
+| H1 Roosevelt | UCI_04 | COMPUTADORA | 192.168.20.197 |
+| H1 Roosevelt | UCI_05 | COMPUTADORA | 192.168.20.198 |
+| H2 San Juan de Dios | ADMIN_06 | COMPUTADORA | 192.168.20.135 |
+| H2 San Juan de Dios | ADMIN_07 | COMPUTADORA | 192.168.20.136 |
+| H2 San Juan de Dios | ADMIN_08 | COMPUTADORA | 192.168.20.137 |
+| H2 San Juan de Dios | ADMIN_09 | COMPUTADORA | 192.168.20.138 |
+| H2 San Juan de Dios | ADMIN_10 | COMPUTADORA | 192.168.20.139 |
+| H2 San Juan de Dios | EM_01 | COMPUTADORA | 192.168.20.226 |
+| H2 San Juan de Dios | EM_02 | LAPTOP | 192.168.20.227 |
+| H2 San Juan de Dios | EM_03 | COMPUTADORA | 192.168.20.228 |
+| H2 San Juan de Dios | EM_04 | LAPTOP | 192.168.20.229 |
+| H2 San Juan de Dios | EM_05 | COMPUTADORA | 192.168.20.230 |
+| H3 Infectología | UCI_06 | COMPUTADORA | 192.168.20.199 |
+| H3 Infectología | UCI_07 | COMPUTADORA | 192.168.20.200 |
+| H3 Infectología | UCI_08 | LAPTOP | 192.168.20.201 |
+| H3 Infectología | UCI_09 | COMPUTADORA | 192.168.20.202 |
+| H3 Infectología | UCI_10 | LAPTOP | 192.168.20.203 |
+| H3 Infectología | EM_06 | COMPUTADORA | 192.168.20.231 |
+| H3 Infectología | EM_07 | COMPUTADORA | 192.168.20.232 |
+| H3 Infectología | EM_08 | COMPUTADORA | 192.168.20.233 |
+| H3 Infectología | EM_09 | COMPUTADORA | 192.168.20.234 |
+| H3 Infectología | EM_10 | COMPUTADORA | 192.168.20.235 |
+| H4 Villa Nueva | CON_06 | LAPTOP | 192.168.21.7 |
+| H4 Villa Nueva | CON_07 | COMPUTADORA | 192.168.21.8 |
+| H4 Villa Nueva | CON_08 | COMPUTADORA | 192.168.21.9 |
+| H4 Villa Nueva | CON_09 | COMPUTADORA | 192.168.21.10 |
+| H4 Villa Nueva | CON_10 | LAPTOP | 192.168.21.11 |
+| H4 Villa Nueva | UCI_11 | COMPUTADORA | 192.168.20.204 |
+| H4 Villa Nueva | UCI_12 | LAPTOP | 192.168.20.205 |
+| H4 Villa Nueva | UCI_13 | LAPTOP | 192.168.20.206 |
+| H4 Villa Nueva | UCI_14 | LAPTOP | 192.168.20.207 |
+| H4 Villa Nueva | UCI_15 | COMPUTADORA | 192.168.20.208 |
+| H5 Amatitlan | ADMIN_11 | COMPUTADORA | 192.168.20.140 |
+| H5 Amatitlan | ADMIN_12 | COMPUTADORA | 192.168.20.141 |
+| H5 Amatitlan | ADMIN_13 | COMPUTADORA | 192.168.20.142 |
+| H5 Amatitlan | ADMIN_14 | LAPTOP | 192.168.20.143 |
+| H5 Amatitlan | ADMIN_15 | LAPTOP | 192.168.20.144 |
+| H5 Amatitlan | EM_11 | COMPUTADORA | 192.168.20.236 |
+| H5 Amatitlan | EM_12 | LAPTOP | 192.168.20.237 |
+| H5 Amatitlan | EM_13 | LAPTOP | 192.168.20.238 |
+| H5 Amatitlan | EM_14 | COMPUTADORA | 192.168.20.239 |
+| H5 Amatitlan | EM_15 | COMPUTADORA | 192.168.20.240 |
+| H6 C.S. ZONA 1 | CON_01 | LAPTOP | 192.168.21.2 |
+| H6 C.S. ZONA 1 | CON_02 | COMPUTADORA | 192.168.21.3 |
+| H6 C.S. ZONA 1 | CON_03 | LAPTOP | 192.168.21.4 |
+| H6 C.S. ZONA 1 | CON_04 | COMPUTADORA | 192.168.21.5 |
+| H6 C.S. ZONA 1 | CON_05 | LAPTOP | 192.168.21.6 |
 ---
+<BR>
+<BR>
+<BR>
+
+
+
+
+
+## Pings pruebas de funcionamiento
+
+### Area 10
+
+<p align="center">
+ <img src="Pings/Qui1.png" widt>
+</p>
+
+<p align="center">
+ <img src="Pings/Qui2.png" widt>
+</p>
+
+### Area 20
+
+<p align="center">
+ <img src="Pings/UCI1.png" widt>
+</p>
+
+<p align="center">
+ <img src="Pings/UCI2.png" widt>
+</p>
+
+### Area 30
+
+<p align="center">
+ <img src="Pings/Admin1.png" widt>
+</p>
+
+<p align="center">
+ <img src="Pings/Admin2.png" widt>
+</p>
+
+
+<p align="center">
+ <img src="Pings/Admin3.png" widt>
+</p>
+
+### Area 40
+
+
+<p align="center">
+ <img src="Pings/Em1.png" widt>
+</p>
+
+<p align="center">
+ <img src="Pings/Em2.png" widt>
+</p>
+
+<p align="center">
+ <img src="Pings/Em3.png" widt>
+</p>
+
+### Area 50
+
+<p align="center">
+ <img src="Pings/Con1.png" widt>
+</p>
+
+<p align="center">
+ <img src="Pings/Con2.png" widt>
+</p>
 
 ## Análisis de Paquetes y Conectividad
 
