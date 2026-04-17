@@ -412,3 +412,13 @@ Todos los puertos no utilizados fueron asignados a la VLAN 999 y apagados admini
 <p align="center">
  <img src="Tecnico/999.png" widt>
 </p>
+
+
+### verificaciones 
+* show vlan brief
+* show vtp status
+* show interface trunk
+* show etherchannel summary
+* show spanning-tree summary
+* show spanning-tree
+* show interface status
