@@ -112,6 +112,10 @@ Esta configuración responde a la necesidad operativa de disponibilidad "cinco n
 ### Cumplimiento de Necesidad Operativa
 El diseño integra EtherChannel entre SW-CORE-1 y SW-CORE-2 para eliminar cuellos de botella en la comunicación entre el Data Center y el NOC. Esto permite que el flujo masivo de datos de las transacciones bancarias no se vea limitado por la capacidad de un solo cable físico.
 
+### Topología del Backbone
+
+
+
 
 ## 1. Sede Occidente (Agencia Regional Comercial)
 
