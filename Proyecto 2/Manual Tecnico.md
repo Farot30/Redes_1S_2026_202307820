@@ -227,9 +227,9 @@ El Data Center se ha diseñado bajo un esquema de aislamiento controlado y alto 
 
 | VLAN | Área Funcional | ID de Red | Gateway | Rango útil | Puertos (Acceso) |
 |------|-------------|--------------|---------|--------------|----------------|
-| 10 | Core_BD | 192.168.21.128/26 | 10.20.10.2* | .130 - .190 | Fa0/1 - Fa0/3 |
-| 20 | Web_Apps | 192.168.21.144/27 | 10.20.10.2* | .146 - .174 | Fa0/4 - Fa0/6 |
-| 30 | NOC | 192.168.21.176/28 | 10.20.10.2* | .178 - .190 | Fa0/7 - Fa0/9 | 
+| 10 | Core_BD | 192.168.21.16/28 | 192.168.21.17 | .18 - .30 | Fa0/1 - Fa0/3 |
+| 20 | Web_Apps | 192.168.21.144/27 | 192.168.21.161 | .146 - .174 | Fa0/4 - Fa0/6 |
+| 30 | NOC | 192.168.21.176/28 | 192.168.21.33 | .178 - .190 | Fa0/7 - Fa0/9 | 
 
 ## Tabla de subnetting organizada por Sedes.
 
@@ -257,7 +257,7 @@ El Data Center se ha diseñado bajo un esquema de aislamiento controlado y alto 
 ### 4. Data Center y Sede Central (Alta Seguridad)
 | VLAN | Área Funcional | Hosts | ID de Red | Máscara (CIDR) | Rango IPs Útiles | Broadcast | Gateway |
 |----------|------------|-------|-----------|----------------|------------------|---------| --------|
-| 10 | Core_BD | 14 | 192.168.21.128 | /26 (255.255.255.248) | .129 - .142 | .135 | .130 |
+| 10 | Core_BD | 14 | 192.168.21.16 | /28 (255.255.255.240) | .18 - .30 | .31 | .17 |
 | 20 | Web_Apps | 28 | 192.168.21.160 | /27 (255.255.255.240) | .161 - .174 | .175 | .161 |
 | 30 | NOC | 10 | 192.168.21.176 | /28 (255.255.255.240) | .177 - .190 | .191 | .177 |
 
