@@ -114,7 +114,96 @@ El diseño integra EtherChannel entre SW-CORE-1 y SW-CORE-2 para eliminar cuello
 
 ### Topología del Backbone
 
+<p align="center">
+ <img src="Topologías/Backbone.png" widt>
+</p>
 
+### Configuraciones del Backbone
+
+#### Switch Core1
+<p align="center">
+ <img src="ConfigBackbone/Core1-1.png" widt>
+</p>
+
+<p align="center">
+ <img src="ConfigBackbone/Core1-2.png" widt>
+</p>
+
+<p align="center">
+ <img src="ConfigBackbone/Core1-3.png" widt>
+</p>
+
+<p align="center">
+ <img src="ConfigBackbone/Core1-4.png" widt>
+</p>
+
+#### Switch Core2
+
+<p align="center">
+ <img src="ConfigBackbone/Core2-1.png" widt>
+</p>
+
+<p align="center">
+ <img src="ConfigBackbone/core2-2.png" widt>
+</p>
+
+<p align="center">
+ <img src="ConfigBackbone/core2-3.png" widt>
+</p>
+
+<p align="center">
+ <img src="ConfigBackbone/Core2-4.png" widt>
+</p>
+
+#### Router1
+
+<p align="center">
+ <img src="ConfigBackbone/R1-1.png" widt>
+</p>
+
+<p align="center">
+ <img src="ConfigBackbone/R1-2.png" widt>
+</p>
+
+<p align="center">
+ <img src="ConfigBackbone/R1-3.png" widt>
+</p>
+
+<p align="center">
+ <img src="ConfigBackbone/R1-4.png" widt>
+</p>
+
+#### Router 2
+
+<p align="center">
+ <img src="ConfigBackbone/R2-1.png" widt>
+</p>
+
+<p align="center">
+ <img src="ConfigBackbone/R2-2.png" widt>
+</p>
+
+<p align="center">
+ <img src="ConfigBackbone/R2-3.png" widt>
+</p>
+
+#### Router 3
+
+<p align="center">
+ <img src="ConfigBackbone/R4-1.png" widt>
+</p>
+
+<p align="center">
+ <img src="ConfigBackbone/R4-2.png" widt>
+</p>
+
+<p align="center">
+ <img src="ConfigBackbone/R4-3.png" widt>
+</p>
+
+<p align="center">
+ <img src="ConfigBackbone/R4-5.png" widt>
+</p>
 
 
 ## 1. Sede Occidente (Agencia Regional Comercial)
@@ -147,6 +236,58 @@ Se ha implementado una topología de Estrella Extendida con un diseño de Router
 | 30 | Gerencia | 192.168.20.96/28 | 192.168.20.97 | .98 - .110 | SW-ACCESO-2: Fa0/1, Fa0/3, Fa0/4 |
 | 40 | Seguridad | 192.168.20.112/28 | 192.168.20.113 | .114 - .126 | SW-ACCESO-2: Fa0/5, Fa0/6, Fa0/7 |
 
+### Topología del Occidente
+
+<p align="center">
+ <img src="Topologías/Occidente.png" widt>
+</p>
+
+### Configuraciones de la sede Occidente
+
+#### Router 2
+
+<p align="center">
+ <img src="ConfigOCC/R21.png" widt>
+</p>
+
+<p align="center">
+ <img src="ConfigOCC/R22.png" widt>
+</p>
+
+#### Switch Server
+
+<p align="center">
+ <img src="ConfigOCC/Server1.png" widt>
+</p>
+
+
+<p align="center">
+ <img src="ConfigOCC/Server2.png" widt>
+</p>
+
+#### Switch Accesos 1
+
+
+<p align="center">
+ <img src="ConfigOCC/Access11.png" widt>
+</p>
+
+
+<p align="center">
+ <img src="ConfigOCC/Access12.png" widt>
+</p>
+
+#### Switch Accesos 2
+
+<p align="center">
+ <img src="ConfigOCC/Access21.png" widt>
+</p>
+
+
+<p align="center">
+ <img src="ConfigOCC/Access22.png" widt>
+</p>
+
 
 ## 2. Sede Norte (Centro de Autorización de Créditos)
 
@@ -175,6 +316,56 @@ Para garantizar que el Centro de Autorización de Créditos no sufra interrupcio
 | 50 | Análisis | 192.168.20.128/26 | 192.168.20.129 | .130 - .190 | SW-NORTE-2: Fa0/3, 0/4, 0/5 |
 | 60 | Auditoría | 192.168.20.192/27 | 192.168.20.193 | .194 - .222 | SW-NORTE-3: Fa0/3, 0/4, 0/5 |
 | 70 | Legal | 192.168.20.224/27 | 192.168.20.225 | .226 - .254 | SW-NORTE-2: Fa0/6, 0/7; SW-NORTE-3: Fa0/6 |
+
+### Topología de la Sede Norte
+
+<p align="center">
+ <img src="Topologías/Norte.png" widt>
+</p>
+
+### Configuración de la Sede Norte
+
+#### Router 3
+
+<p align="center">
+ <img src="ConfigNOR/R31.png" widt>
+</p>
+
+#### Switch Root
+
+<p align="center">
+ <img src="ConfigNOR/Root1.png" widt>
+</p>
+
+<p align="center">
+ <img src="ConfigNOR/Root2.png" widt>
+</p>
+
+<p align="center">
+ <img src="ConfigNOR/Root3.png" widt>
+</p>
+
+<p align="center">
+ <img src="ConfigNOR/Root4.png" widt>
+</p>
+
+#### Switches no root
+
+<p align="center">
+ <img src="ConfigNOR/Nort2.png" widt>
+</p>
+
+<p align="center">
+ <img src="ConfigNOR/Nort21.png" widt>
+</p>
+
+<p align="center">
+ <img src="ConfigNOR/Nort3.png" widt>
+</p>
+
+<p align="center">
+ <img src="ConfigNOR/Nort31.png" widt>
+</p>
 
 
 ## 3. Sede Oriente (Centro Financiero Legado)
@@ -209,6 +400,45 @@ La Sede Oriente representa el núcleo corporativo legado del banco. Para cumplir
 | 90 | Plataforma | 192.168.21.65 | 192.168.21.66 | 192.168.21.67 | .68 - .126 |
 
 
+### Topología de la Sede Oriente
+
+<p align="center">
+ <img src="Topologías/Oriente.png" widt>
+</p>
+
+### Configuraciones de la Sede Oriente
+
+#### Router
+
+<p align="center">
+ <img src="ConfigORIENTE/ROriente.png" widt>
+</p>
+
+#### Switch MS1
+
+<p align="center">
+ <img src="ConfigORIENTE/MS1.png" widt>
+</p>
+
+#### Switch MS2
+
+<p align="center">
+ <img src="ConfigORIENTE/MS2.png" widt>
+</p>
+
+#### Switch Boveda
+
+<p align="center">
+ <img src="ConfigORIENTE/Boveda.png" widt>
+</p>
+
+#### Switch Plataforma
+
+<p align="center">
+ <img src="ConfigORIENTE/Plataforma.png" widt>
+</p>
+
+
 ## 4. Data Center y Sede Central (Alta Seguridad)
 
 ### Justificación de Arquitectura
@@ -234,6 +464,49 @@ El Data Center se ha diseñado bajo un esquema de aislamiento controlado y alto 
 | 10 | Core_BD | 192.168.21.16/28 | 192.168.21.17 | .18 - .30 | Fa0/1 - Fa0/3 |
 | 20 | Web_Apps | 192.168.21.144/27 | 192.168.21.161 | .146 - .174 | Fa0/4 - Fa0/6 |
 | 30 | NOC | 192.168.21.176/28 | 192.168.21.33 | .178 - .190 | Fa0/7 - Fa0/9 | 
+
+### Topología de la Data Center
+
+<p align="center">
+ <img src="Topologías/SedeCentral.png" widt>
+</p>
+
+### Configuraciones del Data Center y Sede Central
+
+#### Router 1
+
+<p align="center">
+ <img src="ConfData/R1.png" widt>
+</p>
+
+#### Router 2
+
+<p align="center">
+ <img src="ConfData/R2.png" widt>
+</p>
+
+#### Switch Distribución
+
+
+<p align="center">
+ <img src="ConfData/DIS1.png" widt>
+</p>
+
+
+<p align="center">
+ <img src="ConfData/DIS2.png" widt>
+</p>
+
+#### Switch de acceso
+
+<p align="center">
+ <img src="ConfData/SW1.png" widt>
+</p>
+
+<p align="center">
+ <img src="ConfData/SW2.png" widt>
+</p>
+
 
 ## Tabla de subnetting organizada por Sedes.
 
@@ -281,3 +554,115 @@ El Data Center se ha diseñado bajo un esquema de aislamiento controlado y alto 
 | 10 | Core_BD | Central/DC |
 | 20 | Web_Apps | Central/DC |
 | 30 | NOC_Monitoreo | Central/DC |
+
+## Pings exitosos Sede 1
+
+### Vlan 10
+
+<p align="center">
+ <img src="Sede1/VLAN10.png" widt>
+</p>
+
+### Vlan 20
+
+<p align="center">
+ <img src="Sede1/VLAN20.png" widt>
+</p>
+
+
+### Vlan 30
+
+<p align="center">
+ <img src="Sede1/VLAN30.png" widt>
+</p>
+
+### Vlan 40
+
+<p align="center">
+ <img src="Sede1/VLAN40.png" widt>
+</p>
+
+## Pings exitosos Sede 2
+
+### Vlan 50
+
+<p align="center">
+ <img src="Sede2/VLAN50.png" widt>
+</p>
+
+### Vlan 60
+
+
+<p align="center">
+ <img src="Sede2/VLAN60.png" widt>
+</p>
+
+### Vlan 70
+
+<p align="center">
+ <img src="Sede2/VLAN70.png" widt>
+</p>
+
+## Pings Exitosos Sede 3
+
+### Vlan 80
+
+<p align="center">
+ <img src="Sede3/VLAN80.png" widt>
+</p>
+
+### Vlan 90
+
+<p align="center">
+ <img src="Sede3/VLAN90.png" widt>
+</p>
+
+## Pings Exitosos Sede 4
+
+### Vlan 10
+
+<p align="center">
+ <img src="Sede4/VLAN10.png" widt>
+</p>
+
+### Vlan 20
+
+<p align="center">
+ <img src="Sede4/VLAN20.png" widt>
+</p>
+
+### Vlan 30
+
+<p align="center">
+ <img src="Sede4/VLAN30.png" widt>
+</p>
+
+## Pruebas de HSRP
+
+<p align="center">
+ <img src="HSRP/H1.png" widt>
+</p>
+
+<p align="center">
+ <img src="HSRP/H2.png" widt>
+</p>
+
+
+<p align="center">
+ <img src="HSRP/H3.png" widt>
+</p>
+
+## Pruebas de STP
+
+<p align="center">
+ <img src="STP/STP1.png" widt>
+</p>
+
+<p align="center">
+ <img src="STP/STP2.png" widt>
+</p>
+
+<p align="center">
+ <img src="STP/STP3.png" widt>
+</p>
+
