@@ -666,3 +666,128 @@ El Data Center se ha diseñado bajo un esquema de aislamiento controlado y alto 
  <img src="STP/STP3.png" widt>
 </p>
 
+## Comando utilizados
+
+### Configuración Básica y Capa 2 (Switches de acceso)
+
+#### Creación de VLANs
+
+vlan 10
+* name Cajas
+
+vlan 20
+* name Asesores
+
+vlan 30
+* name Gerencia
+
+exit
+
+#### Configuración de Puertos de Acceso
+
+interface range fa0/1 - 11
+* switchport mode access
+* switchport access vlan 10
+* exit
+
+#### Configuración de Enlaces Troncales
+
+interface range Gi0/1
+* switchport mode trunk
+* switchport trunk allowed vlan 10,20,30
+* exit
+
+### Protocolos de Capa 2 (VTP, STP, EtherChannel, Port-Security)
+
+#### VLAN Trunking Protocol (VTP)
+* VTP mode Server
+* vtp domain bantech20
+* vtp password cisco
+* vtp version 2
+
+#### Spanning Tree (Rapid PVST+)
+
+* spanning-tree mode rapid-pvst
+* spanning-tree vlan 10,20,30 root primary
+* spanning-tree vlan 10,20,30 root secondary
+
+#### EtherChannel (LACP)
+interface range gi 0/1 - 2
+* channel-group 1 mode active
+* exit
+interface port-channel 1
+* switchport mode trunk
+
+#### Seguridad de Puertos (Port-Security)
+interface fa 0/1
+* switchport mode access
+* switchport port-security
+* switchport port-security maximum 1
+* switchport port-security violation shutdown
+* switchport port-security mac-address sticky
+
+### Capa 3: Enrutamiento Inter-VLAN y Redundancia
+
+#### Router-on-a-Stick (Subinterfaces en Routers)
+
+interface gi0/0
+* no shutdown
+* exi
+
+interface gi0/0.10
+* encapsulation dot1Q 10
+* ip address 192.168.10.1 255.255.255.0
+* exi
+
+#### SVI (Interfaces Virtuales en Switches Multicapa)
+* ip routing
+* interface vlan 10
+* ip address 192.168.10.2 255.255.255.0
+* no shutdown
+
+#### HSRP (Redundancia de Gateway)
+
+interface vlan 10
+* standby 1 ip 192.168.10.1
+* standby 1 priority 110
+* standby 1 preempt
+
+### Protocolos de Enrutamiento
+
+#### OSPF
+router ospf 1
+* router-id 1.1.1.1
+* network 10.10.10.0 0.0.0.3 area 0
+* network 192.168.10.0 0.0.0.255 area 0
+
+#### EIGRP
+* router eigrp 10
+* no auto-summary
+* network 10.20.20.0 0.0.0.3
+
+#### RIPv2
+* router rip
+* version 2
+* no auto-summary
+* network 172.16.0.0
+
+
+#### Rutas Estáticas
+* ip route 10.50.50.0 255.255.255.0 10.100.100.2
+
+### Redistribución de Rutas
+
+#### Redistribuir estáticas y EIGRP hacia OSPF
+
+* router ospf 1
+* redistribute static subnets
+* redistribute eigrp 10 subnets
+
+#### Redistribuir OSPF hacia EIGRP
+* router eigrp 10
+* redistribute ospf 1 metric 10000 100 255 1 1500
+
+#### Redistribuir OSPF y estáticas hacia RIP
+* router rip
+* redistribute ospf 1 metric 2
+* redistribute static metric 2
