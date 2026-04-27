@@ -10,7 +10,7 @@ CATEDRÁTICO: ING. ESPINO
 
   
   <div style="text-align: center;">
-    <h1 style="color: White; text-decoration: underline; text-decoration-color: black;" >MANUAL TÉCNICO NetCore Academy</h1>
+    <h1 style="color: White; text-decoration: underline; text-decoration-color: black;" >MANUAL TÉCNICO Infraestructura Financiera y Alta Disponibilidad "BanTech GT"</h1>
   </div>
 
 ============================================================================================
@@ -24,7 +24,7 @@ SECCIÓN A
 </p>
 
 
-<P align="center">GUATEMALA 19 DE MARZO DEL 2026</P>
+<P align="center">GUATEMALA 29 DE Abril DEL 2026</P>
 
 
 ## Infraestructura del Basckbone
