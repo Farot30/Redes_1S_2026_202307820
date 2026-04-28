@@ -791,3 +791,24 @@ router ospf 1
 * router rip
 * redistribute ospf 1 metric 2
 * redistribute static metric 2
+
+
+
+## Comandos para ver configuraciones
+
+* show ip interface brief
+* show running-config:
+* show version
+* show vlan brief
+* show vtp status
+* show spanning-tree
+* show etherchannel summary
+* show ip route
+* show ip protocols
+* show ip ospf neighbor
+* show ip eigrp neighbors
+* show ip route static
+* show ip route rip
+* show standby brief
+* show port-security
+* show port-security address
